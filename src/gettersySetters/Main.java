@@ -24,19 +24,35 @@ public class Main {
 			System.out.println("ERROR "+ e.getMessage());
 			entrada.nextLine(); // limpia el buffer
 			
-		System.out.println("-------------------------------");
+	
 		}
 
+		System.out.println("-------------------------------");
+		
+		// EJERCICIO 2
+		Producto pr1= new Producto();
+		
+		try {
+		
+		System.out.println("PRECIO: ");
+		double precio= entrada.nextDouble();
+		pr1.setPrecio(precio);
+		
+		System.out.println("STOCK: ");
+		int stock= entrada.nextInt();
+		pr1.setStock(stock);
+		
+		System.out.println("CANTIDAD: ");
+		int cantidad= entrada.nextInt();
+		pr1.vender(cantidad);
+		
+		}catch(Exception e) {
+			System.out.println("ERROR "+ e.getMessage());
+		entrada.nextLine();
+		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("-------------------------------");
 		
 		
 		
