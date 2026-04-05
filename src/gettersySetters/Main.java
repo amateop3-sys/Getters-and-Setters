@@ -77,9 +77,30 @@ public class Main {
 		
 		
 		
+		// EJERCICIO 4
+		Curso c1= new Curso();
+		try {
+			
+			System.out.println("NOTA 1: ");
+			c1.setNota1(entrada.nextDouble());
+			
+			System.out.println("NOTA 2: ");
+			c1.setNota2(entrada.nextDouble());
+			
+			System.out.println("NOTA 3: ");
+			c1.setNota3(entrada.nextDouble());
+			
+			System.out.println("PROMEDIO: "+ c1.promedio());
+			System.out.println("ESTADO: "+ c1.estado());
+			
+			
+		}catch(Exception e) {
+			System.out.println(e.getMessage());
+			entrada.nextLine();
+		}
 		
 		
-		
+		System.out.println("-------------------------------");
 		
 		
 		
