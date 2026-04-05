@@ -53,6 +53,27 @@ public class Main {
 		
 		
 		System.out.println("-------------------------------");
+	
+		
+		// EJERCICIO 3
+		CuentaBancaria cb1= new CuentaBancaria();
+		try {
+			System.out.println("MONTO A RETIRAR: ");
+			double monto= entrada.nextDouble();
+			
+			System.out.println("PIN: ");
+			int pin= entrada.nextInt();
+			
+			cb1.retirar(monto, pin);
+			
+		}catch(Exception e) {
+			System.out.println("ERROR "+e.getMessage());
+			entrada.nextLine();
+		}
+		
+		
+		
+		System.out.println("-------------------------------");
 		
 		
 		
