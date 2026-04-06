@@ -104,6 +104,24 @@ public class Main {
 		
 		
 		
+		// EJERCICIO 5
+		Estudiante e1= new Estudiante();
+		try {
+			
+			System.out.println("PROMEDIO: ");
+			e1.setPromedio(entrada.nextFloat());
+			
+			System.out.println("ES BECADO: "+ e1.getPromedio());
+			
+		}catch(Exception e) {
+			System.out.println("ERROR "+ e.getMessage());
+			entrada.nextLine();
+		}
+		
+		
+		System.out.println("-------------------------------");
+		
+		
 		
 		
 		
