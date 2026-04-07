@@ -179,7 +179,7 @@ public class Main {
 			
 			entrada.nextLine();
 			
-			System.out.println("INGRESE SU NÚMERO: ");
+			System.out.println("INGRESE SU NÚMERO DE TELEFONO: ");
 			con1.setTelefono(entrada.nextLine());
 			
 			
@@ -193,6 +193,24 @@ public class Main {
 			entrada.nextLine();
 		}
 		
+		
+		System.out.println("-------------------------------");
+		
+		
+		
+		
+		
+		// EJERCICIO 9
+		Jugador j1= new Jugador();
+		try {
+			System.out.println("PUNTAJE: ");
+			j1.actualizarPuntaje(entrada.nextInt());
+		
+			
+		}catch(Exception e) {
+			System.out.println("Error "+ e.getMessage());
+			entrada.nextLine();
+		}
 		
 		
 		
