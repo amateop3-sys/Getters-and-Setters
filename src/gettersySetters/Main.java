@@ -164,8 +164,34 @@ public class Main {
 		}
 		
 		
+	
+		
+		System.out.println("-------------------------------");
 		
 		
+		
+		
+		
+		
+		// EJERCICIO 8
+		Contacto con1= new Contacto();
+		try {
+			
+			entrada.nextLine();
+			
+			System.out.println("INGRESE SU NÚMERO: ");
+			con1.setTelefono(entrada.nextLine());
+			
+			
+			System.out.println("INGRESE SU EMAIL: ");
+			con1.setEmail(entrada.nextLine());
+			
+			con1.mostrarContacto();
+			
+		}catch(Exception e) {
+			System.out.println("ERROR "+ e.getMessage());
+			entrada.nextLine();
+		}
 		
 		
 		
