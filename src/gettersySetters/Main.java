@@ -111,7 +111,7 @@ public class Main {
 			System.out.println("PROMEDIO: ");
 			e1.setPromedio(entrada.nextFloat());
 			
-			System.out.println("ES BECADO: "+ e1.getPromedio());
+			System.out.println("ES BECADO?: "+ e1.esBecado());
 			
 		}catch(Exception e) {
 			System.out.println("ERROR "+ e.getMessage());
@@ -120,6 +120,39 @@ public class Main {
 		
 		
 		System.out.println("-------------------------------");
+		
+		
+		// EJERCICIO 6
+		Termometro t1= new Termometro();
+		try {
+			
+			System.out.println("TEMPERATURA EN GRADOS CELSIUS: ");
+			t1.setCelsius(entrada.nextDouble());
+			
+			System.out.println("TEMPERATURA EN GRADOS FAHRENHEIT: "+ t1.getFahrenheit());
+			
+			
+	    	}catch(Exception e) {
+	    	System.out.println("ERROR "+ e.getMessage());
+		    entrada.nextLine();
+		  }
+		
+		
+		System.out.println("-------------------------------");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
