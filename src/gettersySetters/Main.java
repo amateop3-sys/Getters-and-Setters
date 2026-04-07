@@ -141,8 +141,27 @@ public class Main {
 		System.out.println("-------------------------------");
 		
 		
-		
-		
+		// EJERCICIO 7
+		Reloj r1= new Reloj();
+		try {
+			System.out.println("HORA: ");
+			r1.setHora(entrada.nextInt());
+			
+			System.out.println("MINUTOS: ");
+			r1.setMinuto(entrada.nextInt());
+			
+			System.out.println("SEGUNDOS: ");
+			r1.setSegundo(entrada.nextInt());
+			
+			System.out.println("LA HORA ES: "+ r1.mostrarHora());
+			
+			
+			
+			
+		}catch(Exception e) {
+			System.out.println("ERROR "+ e.getMessage());
+			entrada.nextLine();
+		}
 		
 		
 		
