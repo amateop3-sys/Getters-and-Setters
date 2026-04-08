@@ -26,14 +26,66 @@ public class Jugador {
 		puntajeMaximo= nuevoPuntaje;
 	}
 		
-	
-	
-	
-	System.out.println("PUNTAJE NUEVO: "+ puntajeActual);
-	System.out.println("PUNTAJE MAXIMO: "+puntajeMaximo);
-	
-	
-	
-
 }
+
+
+
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+
+
+
+	public int getPuntajeActual() {
+		return puntajeActual;
+	}
+
+
+
+
+
+	public void setPuntajeActual(int puntajeActual) {
+		this.puntajeActual = puntajeActual;
+	}
+
+
+
+
+
+	public int getPuntajeMaximo() {
+		return puntajeMaximo;
+	}
+
+
+
+
+
+	public void setPuntajeMaximo(int puntajeMaximo) {
+		this.puntajeMaximo = puntajeMaximo;
+	}
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
 }
