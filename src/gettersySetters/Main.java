@@ -213,7 +213,34 @@ public class Main {
 		}
 		
 		
+		System.out.println("-------------------------------");
 		
+		
+		// EJERCICIO 10
+		Factura f1= new Factura();
+		try {
+			
+			f1.setCodigoFactura("2026-FAC-001");
+			f1.setDescripcion("LITRO DE COCA-COLA");
+			
+			System.out.println("CANTIDAD: ");
+			f1.setCantidad(entrada.nextInt());
+			
+			System.out.println("PRECIO UNITARIO: ");
+			f1.setPrecioUnitario(entrada.nextDouble());
+			
+			
+			f1.mostrarFactura();		
+			
+			
+		}catch(Exception e) {
+			System.out.println("ERRRO "+ e.getMessage());	
+	
+		}
+		
+		
+		// termina el programa
+		entrada.close();
 		
 		
 		
